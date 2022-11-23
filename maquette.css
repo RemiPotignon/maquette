@@ -1,0 +1,74 @@
+body{
+    background-color: aliceblue;
+    
+    
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+    height: 100%;
+    width: 30vw;
+    right: 0px;
+    top: 0px;
+
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+.pretention{
+    position: fixed;
+    top: 0vh;
+    left: 35vw;
+    word-spacing: 5vw;
+}
+
+.grand-texte{
+    position: relative;
+    top: 20vh;
+    font-size: 80px;
+    text-align: left;
+}
+
+.petit-texte{
+    position: relative;
+    top: 20vh;
+}
+
+.carre-bleu{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+#carre-gauche{
+    position: absolute;
+    top:50vh;
+    left: 48vw;
+    transform: perspective(1000px) rotateY(-30deg);
+    color: red;
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+#carre-droite{
+    position: absolute;
+    top: 50vh;
+    left: 68vw;
+    transform: perspective(1000px) rotateY(30deg);
+    color: red;
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+#carre-haut{
+    position: absolute;
+    top: 36vh;
+    left: 55vw;
+    transform: perspective(1000px) rotateX(80deg) rotateZ(15deg);
+}
